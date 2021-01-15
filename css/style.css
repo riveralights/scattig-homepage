@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@400;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #233863 !important;
+    letter-spacing: 2px;
+}
+
+.navbar-nav a.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-left: 80px;
+}
+
+.btn-blue {
+    background: #002F6C;
+    color: #f4f4f4;
+}
+
+.btn-blue:hover {
+    background: #0348a1;
+    color: #dbd9d9;
+}
+
+.btn-login {
+    margin-left: 80px;
+}
+
+
+section.hero {
+    max-height: 550px;
+    margin: 50px 0;
+}
+
+.hero-logo {
+    width: 100%;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.hero-text {
+    font-size: 18px;
+}
+
+section.beauty {
+    background: #233863;
+    padding: 70px 0;
+}
+
+.beauty-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.beauty-text {
+    font-size: 18px;
+}
+
+section.features {
+    background: #F2F2F2;
+    padding: 70px 0;
+}
+
+section.find {
+    padding: 70px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    border-bottom: #ccc 1px solid;
+}
+
+.footer-logo {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #233863 !important;
+    letter-spacing: 2px;
+}
+
+.link-footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3C3B38;
+    text-decoration: none;
+}
+
+i.fab {
+    color: #3C3B38;
+    margin-right: 5px;
+}
+
+.sitemap-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3C3B38;
+}
+
+. @media(max-width:991px) {
+    .navbar-nav a.nav-link {
+        margin-left: 0px;
+    }
+
+    .btn-login {
+        margin-left: 0px;
+    }
+}
